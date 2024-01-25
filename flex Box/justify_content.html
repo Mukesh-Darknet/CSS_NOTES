@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify_content</title>
+    <style>
+        .contaner{
+            display: flex;
+             /* flex-wrap: wrap; */
+            height: 100px;
+            /* width: 50px; */
+            border: 2px solid black;
+        }
+        .item{
+            background-color: #644343;
+            height: 50px;
+            width:50px ;
+            border: 1px solid black;
+        }
+        .start{
+            justify-content: start;
+
+        }
+        .end{
+            justify-content: end;
+
+        }
+        .between{
+            justify-content: space-between;
+        }
+        .spacearound{
+            justify-content:space-around ;
+        }
+        .space-evenly{
+            justify-content: space-evenly;
+        }
+
+    </style>
+</head>
+<body>
+    justify content: flex _start
+    <div class="contaner start">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    <p>justify content: flex-end</p>
+    <div class="contaner end">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    <b>justify content:space-between</b>
+    <div class="contaner between">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    <b>justify content:space-around</b>
+    <div class="contaner spacearound">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+         <div class="item">manish</div>
+         <div class="item">raju</div>
+        
+    </div>
+    <b>justify content:space-evenly</b>
+    <div class="contaner between">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contaner{
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+            color: aqua;
+            height: 15vh;
+        }
+        .item{
+            width: 100px;
+            background-color: #d16d6d;
+            border: 1px solid blue;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .around{
+            align-content: space-around;
+        }
+        .center{
+            align-content: center;
+        }
+        .between{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <b>stretch is the defoult value of align content</b>
+    <p>align content:strech(default)</p>
+    <div class="contaner stretch ">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    <b>around</b>
+    <div class="contaner around ">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    <b>between</b>
+    <div class="contaner  between">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    <b>align content center</b>
+    <div class="contaner center ">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    
+</body>
+</html>

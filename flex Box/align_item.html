@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align item</title>
+    <style>
+        .contaner{
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+            height: 10vh;
+        }
+        .item{
+            width: 50px;
+            border: 1px solid rgb(86, 181, 30);
+            background-color: #ee1111;
+        }
+        .stretch{
+            align-items: stretch;
+
+        }
+        .start{
+            align-items:  flex-start;
+        }
+        .end{
+            align-items: flex-end;
+        }
+        .between{
+            align-items: center;
+        }
+        .basealign{
+            align-items:baseline;
+        }
+
+    </style>
+</head>
+<body>
+    <b> align item:stretch(defoult)</b>
+    <div class="contaner strech">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    <p>justify content: flex-start</p>
+    <div class="contaner start">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    <b>justify content:end</b>
+    <div class="contaner end">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    <b>justify content:between</b>
+    <div class="contaner between">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    <b>justify content:basealign</b>
+    <div class="contaner basealign">
+        <div class=" item">bablu</div>
+        <div class="item">mukesh</div>
+        <div class="item ">nikesh</div>
+        <div class="item">vikash</div>
+    </div>
+    
+</body>
+</html>
