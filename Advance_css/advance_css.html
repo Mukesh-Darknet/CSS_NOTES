@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini project</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* box-sizing: ; */
+        }
+        body{
+            background-color: #ef7979;
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90px;
+            width: 100%;
+            background-color: #8f0505;
+
+        }
+        .navcontainer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center; 
+            width: 100%;
+            
+            
+            
+        }
+        .navcontainer>div{
+            display: flex;
+
+        }
+        .block1,
+        .block2,
+        .block3{
+            background-color: #cbbebe;
+            width: 100px;
+            height: 30px;
+        }
+        .block4{
+            height:40px ;
+            width:250px ;
+            background-color: #cec4c4;
+        }
+        .main{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px;
+        }
+        .article1{
+            height:400px ;
+            width: 60%;
+            background-color: #a49898;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .articlecontainer{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+
+        }
+    .article2,
+    .article3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        gap: 20px;
+    }
+    .textcontainer>div{
+        margin-bottom: 5px;
+        background-color: #131010;
+    }
+    .skleton1{
+        height: 25px;
+        width: 200px;
+    }
+    .skleton2{
+        height: 25px;
+        width: 150px;
+
+    }
+    .article2{
+        background-color: #8a8383;
+    }
+    .article3{
+        background-color: #4e4949;
+    }
+    </style>
+</head>
+<body>
+
+    <!-- nav bar start -->
+    <nav class="navbar">
+        <div class="navcontainer">
+            <div class="block1"></div>
+            <div class="block2"></div>
+            <div class="block3"></div>
+            <div class="block4"></div>
+        </div>
+        <!-- <div class="block4"></div> -->
+    </nav>
+    <!-- nav bar end -->
+
+    <main class="main">
+        <!-- box1 start -->
+        <article class="article1">
+            <img src="" alt="">
+        </article>
+        <!-- box1 end -->
+        <div class="articlecontainer">
+            <!-- box2 -->
+            <article class="article2">
+                <img src="" alt="">
+                <div class="textcontainer">
+                    <div class="skleton1"></div>
+                    <div class="skleton2"></div>
+                </div>
+            </article>
+            <!-- box2 end -->
+
+            <!-- box3 start -->
+            <article class="article3">
+                <img src="" alt="">
+                <div class="textcontainer">
+                    <div class="skleton1"></div>
+                    <div class="skleton2"></div>
+                </div>
+            </article>
+            <!-- box3 end -->
+
+        </div>
+
+    </main>
+    
+       
+    
+</body>
+</html>

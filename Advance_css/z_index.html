@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zindex</title>
+    <style>
+        .para{
+            /* overflow: auto; */
+            overflow-y: auto;
+            overflow-wrap: break-word;
+            background-color: #ed5858;
+            border: 2px solid black;
+            padding: 5px;
+            height: 100px;
+
+        }
+        .contaner{
+            position: relative;
+        }
+        .box{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            font-size: 20px;
+            color: blue;
+        }
+        .box1{
+            background-color: #be4343;
+            z-index: 10;
+        }
+        .box2{
+            background-color: #213991;
+            left: 50px;
+            top: 50px;
+            z-index: 1;
+        }
+        .box3{
+            background-color: #328f00;
+            left: 100px;
+            top: 100px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+     <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis dolorum animi eveniet quia, pariatur laborum omnis quibusdam, vitae iste veritatis recusandae, non esse sed cumque neque nihil saepe minima ad autem adipisci!
+         Nesciunt iure quaerat totam architecto, voluptatum sint officia impedit veritatis voluptatibus assumenda culpa quia ratione ipsum ipsa ab inventore mollitia natus corrupti adipisci molestiae animi quasi. Mollitia, aut voluptate ducimus tempore temporibus dolores numquam 
+         qui vel cum natus deserunt et 
+        nesciunt laborum necessitatibus tenetur accusamus aperiam sunt accusantium recusandae eveniet itaque veritatis voluptatibus similique ratione! Eveniet, quos, minus sit maxime, enim quaerat a voluptatibus 
+        possimus maiores quasi officiis fugiat! Magni itaque atque pariatur molestias soluta aliquam, tempora autem, modi, exercitationem ea aliquid? Minus molestiae eos, consequuntur fugit asperiores voluptatibus voluptatum ratione,
+         sapiente tempora animi possimus fugiat at nemo ea eligendi,
+         praesentium recusandae quia. Fugit error vitae, praesentium
+         laudantium amet delectus facere tenetur nostrum cumque tempore ipsa quidem 
+        illum animi doloremque consequatur eveniet sapiente soluta perferendis nesciunt necessitatibus saepe libero porro accusamus cum! Voluptates, quidem ad laudantium labore vitae magnam impedit r
+        atione doloribus? Placeat, dolores tempora! Nihil laboriosam rem commodi soluta itaque corporis voluptatibus vitae, natus, placeat facilis illum recusandae, odio deserunt repellendus! Ipsum, rerum vitae.
+         Quam quis ratione amet labore sit enim incidunt pariatur in ut. Voluptatum dolorum quibusdam maxime labore placeat, dicta sequi qui rem 
+        expedita illo ipsum iure, ullam nulla natus molestias enim veritatis voluptate! Debitis quasi cupiditate voluptatum doloremque vero expedita dolorem praesentium omnis itaque, officia, fugia
+        t, velit recusandae dicta. Mollitia, adipisci fugiat quis totam libero dolores cumque praesentium laborum sit odio iure est culpa, labore animi, saepe maxime voluptatem? Consequatur quibusdam 
+        asperiores vitae doloribus praesentium. Ipsam consectetur mollitia dicta autem natus quidem recusandae magnam atque odit debitis veniam quaerat veritatis perferendis at
+         provident corrupti voluptate, voluptates repellat, porro magni, fuga quod. A, sequi?
+
+    </p>
+     
+     <div class="contaner">
+        <div class="box box1">mukesh  </div>
+        <div class="box box2">manish</div>
+        <div class="box box3">rahul</div>
+     </div>
+</body>
+</html>
